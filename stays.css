@@ -14,27 +14,38 @@ html {
 .title {
     flex: auto;
     font-family: 'Times New Roman', Times, serif;
-    display: flex;
+    display: grid;
 
 }
 
-ul, a{
+.four {
+    display: grid;
+
+}
+
+ul {
     padding: 2px;
     list-style: none;
     border: 3px black; 
-    display: block;
+    display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 6px;
+
 
 }
 
 a:hover {
     background-color: rgb(232, 143, 173);
+
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
 }
 
 .price {
     font-family: 'Times New Roman', Times, serif;
-    display: inline-block;
+    display: flex;
     gap: 5px;
 }
 
