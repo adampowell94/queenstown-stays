@@ -1,0 +1,46 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.header {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title {
+    flex: auto;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+
+}
+
+ul, a{
+    padding: 2px;
+    list-style: none;
+    border: 3px black; 
+    display: block;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+a:hover {
+    background-color: rgb(232, 143, 173);
+}
+
+.price {
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block;
+    gap: 5px;
+}
+
+img {
+    display: inline-block;
+    height: auto;
+    width: 25%;
+}
+
